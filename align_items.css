@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* flexbox container ( parent ) */
+.flex_direction_row {
+  border: 10px solid red;
+  text-align: center;
+  display: flex;
+  height: 40vh;
+  /*  align-items:
+1. align flexbox items vertically ( when flex-direction is row)
+2. align flexbox items horizontally ( when flex-direction is column)
+
+
+values:
+stretch (by default)
+center
+flex-start
+flex-end
+baseline
+*/
+
+  /* by default */
+  /* align-items: stretch; */
+  /* align-items: center; */
+  /* align-items: flex-start; */
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+/* .flex_direction_row_space_around {
+  border: 10px solid red;
+  text-align: center;
+  display: flex;
+ 
+} */
+
+.box {
+  color: white;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.box-1 {
+  background: #581f18;
+}
+
+.box-2 {
+  background: #d95d39;
+}
+
+.box-3 {
+  background: blue;
+}
+
+.box-4 {
+  background: green;
+}
+
+.box-5 {
+  background: orange;
+}
+
+/* flexbox container ( parent ) */
+.flex_direction_column {
+  height: 80vh;
+  border: 10px solid red;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  /* by default */
+  /* align-items: stretch; */
+  /* align-items: center; */
+  /* align-items: flex-start; */
+  justify-content: flex-end;
+  align-items: center;
+}
+#flex_direction_column_heading {
+  margin-top: 5rem;
+}

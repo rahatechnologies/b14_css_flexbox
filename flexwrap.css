@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex_container {
+  border: 5px solid red;
+  text-align: center;
+  display: flex;
+
+  /* by default property */
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: wrap; */
+  flex-wrap: wrap-reverse;
+  /* flex-direction: row-reverse; */
+}
+
+.box {
+  color: white;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.box-1 {
+  background: #581f18;
+}
+
+.box-2 {
+  background: #d95d39;
+}
+
+.box-3 {
+  background: blue;
+}
+
+.box-4 {
+  background: green;
+}
+
+.box-5 {
+  background: orange;
+}
